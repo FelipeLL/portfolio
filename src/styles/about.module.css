@@ -1,0 +1,142 @@
+.about {
+  padding: 40px 0;
+}
+
+.about .content {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.content .title {
+  display: flex;
+  margin-bottom: 60px;
+  justify-content: center;
+}
+
+.content .title span {
+  position: relative;
+  padding-bottom: 8px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #0e2431;
+}
+
+.title span::before,
+.title span::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #ea4335;
+  left: 0;
+  bottom: 0;
+}
+
+.title span::after {
+  bottom: -7px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-details {
+  display: flex;
+}
+
+.about-details .left {
+  margin: 5px;
+  flex-basis: 500px;
+}
+
+.left .topic {
+  padding-bottom: 32px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0e2431;
+}
+
+.left p {
+  line-height: 23px;
+}
+
+.about-details .right {
+  margin: 5px;
+  flex-basis: 700px;
+}
+
+.right .skills-title {
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #0e2431;
+}
+
+.skills {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+}
+
+.skills div {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 120px;
+}
+
+.skills div:nth-child(1) svg {
+  color: #ff5733;
+}
+.skills div:nth-child(2) svg {
+  color: #264de4;
+}
+.skills div:nth-child(3) svg {
+  color: #f0db4f;
+}
+.skills div:nth-child(4) svg {
+  color: #3c873a;
+}
+.skills div:nth-child(5) svg {
+  color: #61dbfb;
+}
+.skills div:nth-child(6) svg {
+  color: #f29111;
+}
+
+.skills div span {
+  text-align: center;
+  margin-bottom: 5px;
+  color: #0e2431;
+}
+
+.skills div svg {
+  font-size: 65px;
+}
+
+@media (max-width: 1160px) {
+  .skills div {
+    flex-basis: 100px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .skills {
+    gap: 60px;
+  }
+}
+
+@media (max-width: 750px) {
+  .about-details {
+    flex-direction: column;
+  }
+
+  .about-details .left {
+    flex-basis: 220px;
+  }
+
+  .about-details .right {
+    flex-basis: 350px;
+  }
+}
