@@ -18,7 +18,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          Copyright <span>Felipe-Ladino</span> | &#169; 2021 All Rights Reserved
+          Copyright <span>Felipe-Ladino</span> | &#169; 2022 All Rights Reserved
         </div>
       </div>
     </footer>
