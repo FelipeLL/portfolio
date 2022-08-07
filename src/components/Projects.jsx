@@ -92,10 +92,7 @@ const Projects = () => {
                 >
                   <FontAwesomeIcon icon={faGithub} /> Repository
                 </a>
-                <a
-                  href="https://github.com/FelipeLL/Inventarios_front"
-                  target="_blank"
-                >
+                <a href="https://zoratama-map.netlify.app/" target="_blank">
                   <FontAwesomeIcon icon={faGlobe} /> Website
                 </a>
               </div>
